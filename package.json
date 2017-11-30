@@ -1,0 +1,22 @@
+{
+  "name": "notable",
+  "version": "1.0.0",
+  "description": "A backend for a note-taking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Drew Davis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-validator": "^4.3.0",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
